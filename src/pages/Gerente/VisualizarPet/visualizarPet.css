@@ -1,0 +1,28 @@
+.visualizarPet{
+    flex: 4;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tituloVisalizarPet{
+    margin-bottom: 30px;
+}
+
+.dadosContainer{
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.btns{
+    width: 100px;
+    border: none;
+    background-color: cyan;
+    color: crimson;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.cadastrarPet{
+    flex: 4;
+    padding: 20px;
+    margin: 20px;
+}
+
+.formCadastrarPet{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cadastrarPetItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.cadastrarPetItem>label{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 38, 190);
+}
+
+.cadastrarPetItem>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    
+}

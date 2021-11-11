@@ -1,0 +1,79 @@
+.usuario{
+    flex: 4;
+    padding: 20px;
+    margin: 20px;
+}
+
+.formUsuario{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.usuarioItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.usuarioItem>label{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 38, 190);
+}
+
+.usuarioItem>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    
+}
+
+.btns{
+    width: 100px;
+    border: none;
+    background-color: cyan;
+    color: crimson;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btns_new{
+    width: 100px;
+    background-color: cyan;
+    color: crimson;
+    align-items: center;
+    padding: 5px 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.aum{
+    width: 150px !important; 
+}
+
+.btns_secun{
+    width: 100px;
+    background-color: cyan;
+    color: crimson;
+    align-items: center;
+    padding: 5px 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
